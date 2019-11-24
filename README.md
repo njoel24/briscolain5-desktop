@@ -1,9 +1,8 @@
-Card Game Engine written in React/Redux.
-npm install / npm start
+npm install / npm build/ npm start
 
 Live Demo: http://briscolain5.com
 
-firebase command
+firebase useful commands:
 firebase login
 firebase init
 firebase server
