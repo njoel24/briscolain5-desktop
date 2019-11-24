@@ -1,9 +1,10 @@
-Card Game written in React/Redux.
-I used Webpack as the module bundle, Yarn as package manager and
-bootstrap 4 as css framework.
+Card Game Engine written in React/Redux.
 npm install / npm start
-The game comes with two version: desktop and native.
-For the native version I used React-Native
-Feel free to collaborate.
 
 Live Demo: http://briscolain5.com
+
+firebase command
+firebase login
+firebase init
+firebase server
+firebase deploy
