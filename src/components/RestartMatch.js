@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { initMatch, startMatch } from '../actions/match';
+import { initMatch, startMatch } from '../engine/actions/match';
 
 class RestartMatch extends React.Component {
 	render () {

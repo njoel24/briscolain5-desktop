@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { play } from '../actions/match';
+import { play } from '../engine/actions/match';
 
 export class Card extends React.Component {
 

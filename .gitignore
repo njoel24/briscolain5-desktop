@@ -1,7 +1,6 @@
 /node_modules
 /dist
-/app/*.js
-/app/*.map
+/src/engine/*
 /typings/*
 npm-debug.log
 firebase*

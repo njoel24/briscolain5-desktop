@@ -4,8 +4,8 @@ import Players from './Players';
 import RestartMatch from './RestartMatch';
 import Common from './Common';
 import Me from './Me';
-import { setWinner,  endTurn, changeTurn, play} from '../actions/match';
-import { playAuction, choosePartner,  changeTurnAuction } from '../actions/auction';
+import { setWinner,  endTurn, changeTurn, play} from '../engine/actions/match';
+import { playAuction, choosePartner,  changeTurnAuction } from '../engine/actions/auction';
 
 class Board extends React.Component {
 	

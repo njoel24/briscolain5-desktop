@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { playAuction, exitAuction } from '../actions/auction';
+import { playAuction, exitAuction } from '../engine/actions/auction';
 
 class ChoosePoints extends React.Component {
 	constructor() {

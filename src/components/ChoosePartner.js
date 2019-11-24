@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { choosePartner } from '../actions/auction';
+import { choosePartner } from '../engine/actions/auction';
 
 class ChoosePartner extends React.Component {
 
