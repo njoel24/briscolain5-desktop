@@ -6,18 +6,21 @@ class ChoosePoints extends React.Component {
 	constructor() {
 		super();
 	}
-	updateValue() {
-		if(document.getElementById("range")) {
-			document.getElementById("value").innerHTML = document.getElementById("range").value;
-		}
-	}
 	render () {	
 		if(this.props.show) {
 			return (
 				<div>
-					<input id="range" type="range" min={70} max={120} defaultValue={70} step={1} onChange={this.updateValue.bind(this)}  />
-					<span id="value"></span>
-					<button onClick={ this.props.playAuction}>Ok</button>
+					<button onClick={ this.props.playAuction.bind(this, 70)}>70</button>
+					<button onClick={ this.props.playAuction.bind(this, 75)}>75</button>
+					<button onClick={ this.props.playAuction.bind(this, 80)}>80</button>
+					<button onClick={ this.props.playAuction.bind(this, 85)}>85</button>
+					<button onClick={ this.props.playAuction.bind(this, 90)}>90</button>
+					<button onClick={ this.props.playAuction.bind(this, 95)}>95</button>
+					<button onClick={ this.props.playAuction.bind(this, 100)}>100</button>
+					<button onClick={ this.props.playAuction.bind(this, 105)}>105</button>
+					<button onClick={ this.props.playAuction.bind(this, 110)}>110</button>
+					<button onClick={ this.props.playAuction.bind(this, 115)}>115</button>
+					<button onClick={ this.props.playAuction.bind(this, 120)}>120</button>
 					<button onClick={ this.props.exitAuction}>Esci</button>
 				</div>
 			)
@@ -34,11 +37,7 @@ const mapStateToProps = function() {
 const mapDispatchToProps = function(dispatch) {
 
 	return {
-		playAuction: () => {
-			let value= 0
-			if(document.getElementById("range")){
-				value = document.getElementById("range").value
-			}
+		playAuction: (value) => {
 			dispatch(playAuction(value));
 		},
 		exitAuction: () => {
