@@ -6,7 +6,7 @@
     "start": "webpack-dev-server",
     "build": "webpack"
   },
-  "author": "Cristiano Anselmi",
+  "author": "Cristiano Salvatore Anselmi",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.7",
