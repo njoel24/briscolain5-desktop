@@ -5,5 +5,5 @@ Live Demo: http://briscolain5.com
 firebase useful commands:
 firebase login
 firebase init
-firebase server
+firebase serve
 firebase deploy
